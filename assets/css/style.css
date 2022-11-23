@@ -1,0 +1,182 @@
+/* @font-face{
+    font-family:'digital-clock-font';
+    src: url('put_the_location_to_your_font.ttf or .otf');
+   } */
+
+/*------------------ jquery bootgrid ---------------------------------*/
+
+.asi-table-container {
+    border: 3px solid #4AA8D5;
+    border-radius: 2px;
+    -webkit-border-radius: 2px;
+    -moz-border-radius: 2px;
+}
+
+.grid-data>tbody>tr {
+    color: #000 !important;
+}
+
+.asi-value-text {
+    color: #007ed3;
+    font-weight: bold;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.text-left {
+    text-align: left;
+}
+
+.text-right {
+    text-align: right;
+}
+
+.form-group label {
+    padding: 0.3em;
+}
+
+.table>tbody>tr.success>td,
+.table>tbody>tr.success>th,
+.table>tbody>tr>td.success,
+.table>tbody>tr>th.success,
+.table>tfoot>tr.success>td,
+.table>tfoot>tr.success>th,
+.table>tfoot>tr>td.success,
+.table>tfoot>tr>th.success,
+.table>thead>tr.success>td,
+.table>thead>tr.success>th,
+.table>thead>tr>td.success,
+.table>thead>tr>th.success,
+
+#grid-data>tbody>tr.success>td {
+    background-color: transparent !important;
+}
+
+.bootgrid-btn {
+    background: #ffffff !important;
+    border: 1px solid #dcdcdc !important;
+    border-radius: 2px;
+    cursor: pointer;
+}
+
+.bootgrid-btn-link {
+    padding-top: 0.2rem !important;
+    padding-bottom: 0.2rem !important;
+}
+
+.bootgrid-btn-outline {
+    margin-top: 0.15rem !important;
+
+}
+
+.bootgrid-btn:hover {
+    background: #e0e0e0 !important;
+}
+
+tr.tDnD_whileDrag {
+    background-color: #007ed3 imp !important;
+}
+
+
+/* .table-striped tbody tr:nth-of-type(2n+1) {
+    background-color: rgba(255, 255, 255, 1) !important;
+}
+
+.table-striped tbody tr:nth-of-type(2n) {
+    background-color: rgba(255, 255, 255, 1) !important;
+} */
+
+.status-enable {
+    color: #0090d2;
+}
+
+.status-disable {
+    color: #494949;
+}
+
+.command-status {
+    font-size: 1em;
+}
+
+
+
+
+.bootgrid-table>tbody>tr>td>.command-success {
+    color: #028e11 !important;
+}
+
+
+.bootgrid-table>tbody>tr>td>.command-delete {
+    color: #ff0000 !important;
+}
+
+.bootgrid-table>tbody>tr>td>button.command-edit {
+    color: #b5017f !important;
+}
+
+.bootgrid-table>tbody>tr>td>button.command-view {
+    color: #0084ff !important;
+}
+
+.bootgrid-table>tbody>tr>td>button.command-add-question {
+    color: #00a9bd !important;
+}
+
+.bootgrid-table>tbody>tr>td>button.command-setup-timing {
+    color: #e100ff !important;
+}
+
+.bootgrid-table>tbody>tr>td>button.bootgrid-btn:focus {
+    outline: none !important;
+}
+
+/* .bootgrid-table>tbody>tr {
+    background-color: rgba(255, 255, 255, 0.1) !important;
+}
+
+.bootgrid-table>tbody>tr:nth-of-type(2n) {
+    background-color: rgba(164, 164, 164, 0.05) !important;
+} */
+
+.title-table-list-data {
+    text-align: center !important;
+    color: #0090d2 !important;
+    font-weight: bold !important;
+    font-size: 1.3em !important;
+}
+
+.jsconfirm-button-container {
+    width: 100% !important;
+    text-align: center !important;
+}
+
+.bootgrid-table>tbody>tr:hover {
+    background-color: rgba(0, 141, 168, 0.08) !important;
+}
+
+
+/*------------------------------- waitting --------------------*/
+
+.modal-loading {
+    display:    none;
+    position:   fixed;
+    z-index:    99999999999;
+    top:        0;
+    left:       0;
+    height:     100%;
+    width:      100%;
+    background: rgba( 0, 0, 0, .2 ) 
+                url('../images/ajax-loader.gif') 
+                50% 50% 
+                no-repeat;
+}
+
+body.loading {
+    overflow: hidden;   
+}
+
+body.loading .modal-loading {
+    display: block;
+}
